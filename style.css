@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lalezar{
+    font-family: lalezar;
+}
+
+.vazir{
+    font-family: Vazir;
+}
+
+@media screen and ( min-width: 768px ) {
+    .position-md-fixed{
+        position: fixed;
+    }
+}
+
+@media screen and ( min-width: 991px ) {
+    .position-lg-fixed{
+        position: fixed;
+    }
+}
+
+.course-list{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.course-list-item{
+    padding: 10px 15px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.course-list-item:hover{
+    transform: translateX(-10px);
+    background-color: rgb(216, 240, 216);
+    background: linear-gradient(to right , rgb(197, 226, 197) , rgb(185, 226, 185) , rgb(163, 230, 163));
+    border-radius: 10px;
+}
+
+.course-list-2{
+    width: 150px;
+   /* height: 200px;*/
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.course-list-item-2{
+    padding: 10px 15px;
+    transition: all 0.5s;
+}
+
+
+.text-contact-1:hover{
+    transform: translateX(-10px);
+    background-color: rgb(216, 240, 216);
+        background: linear-gradient(to right , rgb(197, 226, 197) , rgb(185, 226, 185) , rgb(163, 230, 163));
+    border-radius: 10px;
+}
+.text-contact-2:hover{
+    transform: translateX(-10px);
+    background-color: rgb(216, 240, 216);
+        background: linear-gradient(to right , rgb(197, 226, 197) , rgb(185, 226, 185) , rgb(163, 230, 163));
+    border-radius: 10px;
+}
+
+.header{
+    background-image: url('header-bg.jpg');
+}
+
+.box-array{
+    transition: all 0.5s;
+    cursor: pointer;
+} 
+
+.box-array:hover{
+    transform: scale(1);
+}
+
+.service-box{
+   /* box-shadow: 0 0 10px lightgray;*/
+   border-bottom: 4px solid;
+   border-radius: 5px;
+   transition: all 0.5s;
+}
+
+.read-more{
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.service-box.border-primary:hover{
+    background-color: #0d6efd;
+}
+
+.service-box.border-success:hover{
+    background-color: #198754;
+}
+
+
+.service-box.border-warning:hover{
+    background-color: #ffc107;
+}
+
+.service-box:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.service-box:hover .read-more{
+    color: white !important;
+}
+
+.box-pric{
+    transition: all 0.5s;
+    height: 500px;
+}
+
+.box-pric:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-bottom: 5px solid #198754;
+}
+
+footer{
+    background: #00cba9;
+}
